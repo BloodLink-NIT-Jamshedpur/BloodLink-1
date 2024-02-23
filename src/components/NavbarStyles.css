@@ -1,0 +1,153 @@
+.NavbarItems {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.5);
+  width: 95%;
+  height: 62px;
+  border-radius: 50px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 9999;
+}
+.navbar-logo {
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
+  color: #222;
+  font-size: 1.8rem;
+  cursor: pointer;
+margin-right: auto; /* This pushes the heading to the left */
+  }
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 1.2rem;
+  list-style: none;
+  align-items: center;
+}
+.nav-links {
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: #222222d2;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+.nav-links i {
+  padding-right: 10px;
+}
+.nav-links:hover {
+  color:#c92e2ece;
+  transition: all 0.2s ease in-out;
+}
+
+.register-link{
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0.8rem 1.2rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease in-out;
+  text-decoration: none;
+  color: #000;
+}
+
+.register-link:hover {
+  background-color:#be0606;
+  color: #fff;
+}
+.menu-icons {
+  display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+  .NavbarItems {
+    z-index: 99;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    align-items: stretch;
+    padding: 80px 0 30px 0;
+    margin: 0;
+    transition: 0.3s ease-in-out;
+    border-radius: 13px;
+  }
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-links {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 2rem 0;
+  }
+  .nav-links:hover {
+    color:#c92e2ece;
+    transition: none;
+}
+  button {
+    display: none;
+  }
+  .nav-links-mobile {
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    margin: auto;
+    border-radius: 4px;
+    width: 80%;
+    background-color:#be0606;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .menu-icons {
+    display: block;
+    cursor: pointer;
+  }
+  .menu-icons i {
+    font-size: 1.2rem;
+    color: #222;
+  }
+}

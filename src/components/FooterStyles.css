@@ -1,0 +1,81 @@
+.footer {
+  padding: 4rem 6rem;
+  background-color: #ffffffb3;
+  color: #000000;
+  border: solid 2px rgba(193, 9, 9, 0.817);
+
+}
+.top h1 {
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
+}
+.top p{
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
+  font-size: small;
+  margin-top: 0.3rem;
+}
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top i {
+  color: #000000;
+  font-size: 2rem;
+  margin-left: 1rem;
+  
+}
+.top i:hover {
+  color: #bc0808e1;
+
+}
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+.bottom h4 {
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.3rem;
+  padding: 1rem 0 0.8rem 0;
+}
+
+.bottom a {
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  color: #000000;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 4rem 2rem;
+  }
+  .footer i {
+    margin: 1rem 1rem 0 0;
+  }
+  .bottom div {
+    width: 50%;
+  }
+}

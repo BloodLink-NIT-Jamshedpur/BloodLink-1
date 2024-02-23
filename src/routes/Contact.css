@@ -1,0 +1,51 @@
+/* Default styles for larger screens */
+.hero-container {
+    position: relative;
+    
+  }
+  
+  .contact-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -49%);
+    z-index: 1;
+    width: 80%;
+    padding: 30px;
+    margin-bottom: 5rem;
+    border: 1px solid rgba(232, 231, 231, 0.838);
+    background-color: rgba(230, 228, 228, 0.8);
+    border-radius: 10px;
+    -webkit-transform: translate(-50%, -49%);
+    -moz-transform: translate(-50%, -49%);
+    -ms-transform: translate(-50%, -49%);
+    -o-transform: translate(-50%, -49%);
+}
+  
+  .hero-mid {
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    height: 80vh;
+    opacity: 0.4;
+  }
+  
+  .hero-mid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .contact-container {
+      width: 80%; /* Adjust the width for smaller screens */
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,35 @@
+.hero-container {
+  position: relative;
+}
+
+.register-container 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 60%;
+    padding: 30px;
+    background-color: rgba(77, 35, 35, 0.444) !important; /* Add !important */
+    border-radius: 10px;
+  }
+.hero-mid {
+  position: relative;
+  overflow: hidden;
+ 
+  background-position: center;
+  height: 100vh;
+  opacity: 0.8; /* Set the opacity of the background image */
+}
+
+.hero-mid::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}

@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+}
+
+.container {
+    height: 400px;
+    width: 50%;
+    background-color: #ffe6e660;
+    margin: 8% auto;
+    box-shadow: 0px 0px 20px 5px #544a4a70;
+    border: 1px solid #ccc;
+}
+
+input {
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.name {
+    width: 40%;
+    height: 30px;
+}
+
+.otherField {
+    width: 81%;
+    height: 30px;
+}
+
+
+.sign, .login {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 35px;
+    width: 30%;
+    background-color: #571019;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1rem;
+    border-radius: 5px;
+    border-color: #600f1a;
+}
+
+.sign:hover, .login:hover {
+    background-color: #de4e4e;
+}
+
+.field_container {
+    margin-bottom: 15px;
+}
+
+.main_button {
+    padding-top: 40px;
+}
+
+.title {
+    color: #333;
+}
+
+.signin_padding {
+    padding-top: 65px;
+}

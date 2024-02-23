@@ -1,0 +1,130 @@
+/* Blood Donation Contact Form Styling */
+.from-container2 {
+  margin: 2rem 6rem;
+  color: #410e0d; /* Blood Red Color */
+}
+
+
+.parent-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.from-container2 form {
+  padding-top: 2rem; /* Adjusted padding */
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%; /* Adjusted width */
+
+  margin: auto;
+}
+
+.from-container2 input,
+.from-container2 textarea {
+  font-family: 'Quicksand', sans-serif;
+  height: 2rem; /* Adjusted height */
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #4b1513; /* Blood Red Border */
+}
+
+.from-container2 textarea {
+  padding: 0.2rem 1rem;
+}
+
+.from-container2 button {
+  display: inline;
+  background-color: #591916; /* Blood Red Button */
+  color: #ffffff; /* White Text */
+  padding: 0.8rem ;
+
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.from-container2 button:hover {
+  background-color: #c9302c; /* Darker Shade on Hover */
+}
+
+/* Add this style for FAQ container */
+.faqs-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem; /* Adjusted margin */
+}
+
+/* Add this style for FAQ list */
+.faqs-section ol {
+  width: 55%; /* Adjusted width */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Add this style for FAQ items */
+.faqs-section li {
+  margin-bottom: 20px;
+}
+
+/* Add spacing between two columns */
+.faqs-section ol:first-child {
+  margin-right: 20px; /* Adjusted spacing */
+}
+
+.faqs-header {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem; /* Adjusted margin for centering */
+}
+
+.faqs-header span {
+  display: inline-block;
+  color: #311f1f;
+  font-size: 50px;
+  font-weight: bold;
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  white-space: nowrap; /* Prevents line break */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+  .from-container2 {
+    margin: 4rem 2rem;
+  }
+  .from-container2 form {
+    padding-top: 2rem;
+    width: 80%; /* Adjusted width for responsiveness */
+  }
+  .parent-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .from-container2 {
+    margin: 2rem 1rem;
+  }
+  .from-container2 form {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+
+  .faqs-section {
+    flex-direction: column;
+  }
+
+  .faqs-section ol {
+    width: 100%;
+    margin-right: 0; /* Removed right margin for better responsiveness */
+  }
+  
+  .faqs-header span {
+    font-size: 40px; /* Adjusted font size for smaller screens */
+  }
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    padding: 50px 0;
+}
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content p {
+    padding-bottom: 10px;
+}
+
+.fixed-btn {
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+    background: #671212;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px #2a0202;
+    cursor: pointer;
+    z-index: 99;
+    transition: background-color 0.3s;
+    /*Addatransitionforasmoothcolorchange*/-webkit-border-radius: 10px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+
+.fixed-btn p {
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: 900;
+    color: #fff;
+}
+.fixed-btn a{
+    text-decoration: none;
+}
+
+.fixed-btn:active {
+    box-shadow: 0 0;
+}
+
+.fixed-btn:hover {
+    background-color: #761d1d; /* Change to a different color when the cursor is on the button */
+}

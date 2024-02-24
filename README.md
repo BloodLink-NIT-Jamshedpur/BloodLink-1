@@ -36,6 +36,7 @@ To install the project and its dependencies, follow these steps:
 Clone the repository: git clone https://github.com/your-username/bloodlink-react-app.git
 Change into the project directory: cd bloodlink
 Install dependencies: npm install
+And then npm i markdown-it
 Usage
 Describe how to use your Bloodlink React App. Include any configuration, environment variables, or specific steps users need to follow. Add examples or screenshots if necessary.
 

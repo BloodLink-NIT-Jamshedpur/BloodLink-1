@@ -33,7 +33,7 @@ loader-utils - Version 3.2.1
 Installation
 To install the project and its dependencies, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/bloodlink-react-app.git
+Clone the repository: git clone https://github.com/BloodLink-NIT-Jamshedpur/BloodLink-1.git
 Change into the project directory: cd bloodlink
 Install dependencies: npm install
 And then npm i markdown-it

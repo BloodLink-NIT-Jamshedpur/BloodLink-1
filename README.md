@@ -2,7 +2,7 @@
 Bloodlink React App is a project built using React and several other dependencies for various functionalities. This README provides essential information to help you understand, set up, and contribute to the project.
 
 Dependencies
-@emailjs/browser - Version 4.1.0
+@emailjs/browser - Version 4.1.0 
 @fortawesome/free-solid-svg-icons - Version 6.5.1
 @fortawesome/react-fontawesome - Version 0.2.0
 @google/generative-ai - Version 0.2.1
@@ -34,7 +34,7 @@ loader-utils - Version 3.2.1
 Installation
 To install the project and its dependencies, follow these steps:
 
-Clone the repository: git clone https://github.com/BloodLink-NIT-Jamshedpur/BloodLink-1.git
+<br>Clone the repository: git clone https://github.com/BloodLink-NIT-Jamshedpur/BloodLink-1.git</br>
 Change into the project directory: cd bloodlink
 Install dependencies: npm install
 And then npm i markdown-it
